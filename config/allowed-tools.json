@@ -1,0 +1,8 @@
+{
+  "default": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"],
+  "profiles": {
+    "readonly": ["Read", "Glob", "Grep"],
+    "full": ["Read", "Write", "Edit", "Bash", "Glob", "Grep", "Agent"],
+    "dangerous": "__all__"
+  }
+}
